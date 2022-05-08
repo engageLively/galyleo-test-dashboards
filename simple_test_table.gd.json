@@ -1,0 +1,14 @@
+{
+  "fill":"Color.rgb(103,58,183)",
+  "tables":{
+    "test1": {
+      "columns": [{ "name": "name", "type": "string" }, { "name": "age", "type": "number" }],
+      "rows": [["a", 2], ["b", 1]]
+    }
+  },
+  "views":{},
+  "charts":{},
+  "filters":{},
+  "morphs":[],
+  "numMorphs":0
+}
