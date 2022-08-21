@@ -1,5 +1,5 @@
 {
-    "tables": [
+    "tables":
         {
             "electoral_college": {
                 "columns": [
@@ -127,9 +127,8 @@
                     "url": "https://engagelively.wl.r.appspot.com/"
                 }
             }
-        }
-    ],
-    "views":[],
-    "filters":[],
-    "charts":[]
+        },
+    "views":{},
+    "filters":{},
+    "charts":{}
 }
