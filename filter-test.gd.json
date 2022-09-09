@@ -1,0 +1,514 @@
+{
+    "fill": "Color.white",
+    "tables": {
+        "table1": {
+            "columns": [
+                {
+                    "name": "Name",
+                    "type": "string"
+                },
+                {
+                    "name": "Age",
+                    "type": "number"
+                }
+            ],
+            "rows": [
+                [
+                    "Tom",
+                    53
+                ],
+                [
+                    "Dick",
+                    75
+                ],
+                [
+                    "Harry",
+                    54
+                ],
+                [
+                    "Jill",
+                    60
+                ],
+                [
+                    "Mary",
+                    20
+                ],
+                [
+                    "Alice",
+                    47
+                ]
+            ]
+        }
+    },
+    "views": {},
+    "charts": {},
+    "filters": {
+        "NameSelect": {
+            "savedForm": {
+                "part": "part://Dashboard Studio Development/galyleo/select filter",
+                "filterType": "Select",
+                "columnName": "Name",
+                "tableName": null,
+                "choices": [
+                    {
+                        "isListItem": true,
+                        "isPlaceholder": true,
+                        "value": "__no_selection__",
+                        "label": [
+                            "Select filter type",
+                            {
+                                "fontStyle": "italic",
+                                "opacity": 0.5
+                            }
+                        ],
+                        "string": "Select filter type"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Alice",
+                        "value": "Alice"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Dick",
+                        "value": "Dick"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Harry",
+                        "value": "Harry"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Jill",
+                        "value": "Jill"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Mary",
+                        "value": "Mary"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Tom",
+                        "value": "Tom"
+                    }
+                ],
+                "selection": "Alice",
+                "isString": false
+            },
+            "morphIndex": 0,
+            "morphicProperties": {
+                "rotation": 0,
+                "scale": 1,
+                "clipMode": "visible",
+                "opacity": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extent": {
+                    "x": 321.93359375,
+                    "y": 82.4296875
+                },
+                "fill": "Color.transparent",
+                "border": {
+                    "style": {
+                        "top": "dashed",
+                        "right": "dashed",
+                        "bottom": "dashed",
+                        "left": "dashed"
+                    },
+                    "width": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "color": {
+                        "top": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "left": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "right": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "bottom": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        }
+                    },
+                    "borderRadius": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    }
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "NameList": {
+            "savedForm": {
+                "part": "part://Dashboard Studio Development/galyleo/list filter",
+                "columnName": "Name",
+                "choices": [
+                    {
+                        "isListItem": true,
+                        "string": "Alice",
+                        "value": "Alice"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Dick",
+                        "value": "Dick"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Harry",
+                        "value": "Harry"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Jill",
+                        "value": "Jill"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Mary",
+                        "value": "Mary"
+                    },
+                    {
+                        "isListItem": true,
+                        "string": "Tom",
+                        "value": "Tom"
+                    }
+                ],
+                "selection": "Alice",
+                "isString": false,
+                "tableName": null,
+                "type": "Select"
+            },
+            "morphIndex": 1,
+            "morphicProperties": {
+                "rotation": 0,
+                "scale": 1,
+                "clipMode": "visible",
+                "opacity": 1,
+                "position": {
+                    "x": 26,
+                    "y": 124
+                },
+                "extent": {
+                    "x": 174.66015625,
+                    "y": 119.46875
+                },
+                "fill": "Color.transparent",
+                "border": {
+                    "style": {
+                        "top": "dashed",
+                        "right": "dashed",
+                        "bottom": "dashed",
+                        "left": "dashed"
+                    },
+                    "width": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "color": {
+                        "top": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "left": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "right": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "bottom": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        }
+                    },
+                    "borderRadius": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    }
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "AgeDoubleSlider": {
+            "savedForm": {
+                "part": "part://Dashboard Studio Development/galyleo/doubleSliderFilter",
+                "tableName": null,
+                "filterType": "Range",
+                "columnName": "Age",
+                "min": null,
+                "max": null
+            },
+            "morphIndex": 2,
+            "morphicProperties": {
+                "rotation": 0,
+                "scale": 1,
+                "clipMode": "visible",
+                "opacity": 1,
+                "position": {
+                    "x": 156,
+                    "y": 435
+                },
+                "extent": {
+                    "x": 342.8359375,
+                    "y": 119.66015625
+                },
+                "fill": "Color.transparent",
+                "border": {
+                    "style": {
+                        "top": "dashed",
+                        "right": "dashed",
+                        "bottom": "dashed",
+                        "left": "dashed"
+                    },
+                    "width": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "color": {
+                        "top": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "left": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "right": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "bottom": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        }
+                    },
+                    "borderRadius": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    }
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "AgeRange": {
+            "savedForm": {
+                "part": "part://Dashboard Studio Development/galyleo/range filter",
+                "tableName": null,
+                "filterType": "Range",
+                "columnName": "Age",
+                "min": null,
+                "max": null
+            },
+            "morphIndex": 3,
+            "morphicProperties": {
+                "rotation": 0,
+                "scale": 1,
+                "clipMode": "visible",
+                "opacity": 1,
+                "position": {
+                    "x": 297,
+                    "y": 258
+                },
+                "extent": {
+                    "x": 211.6484375,
+                    "y": 100.84375
+                },
+                "fill": "Color.transparent",
+                "border": {
+                    "style": {
+                        "top": "dashed",
+                        "right": "dashed",
+                        "bottom": "dashed",
+                        "left": "dashed"
+                    },
+                    "width": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "color": {
+                        "top": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "left": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "right": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "bottom": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        }
+                    },
+                    "borderRadius": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    }
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "": {
+            "savedForm": {
+                "part": "part://Dashboard Studio Development/galyleo/SliderFilter",
+                "tableName": [
+                    20,
+                    47,
+                    53,
+                    54,
+                    60,
+                    75
+                ],
+                "filterType": "NumericSelect",
+                "columnName": "Age",
+                "minVal": null,
+                "maxVal": false,
+                "value": null
+            },
+            "morphIndex": 4,
+            "morphicProperties": {
+                "rotation": 0,
+                "scale": 1,
+                "clipMode": "visible",
+                "opacity": 1,
+                "position": {
+                    "x": 686,
+                    "y": 118
+                },
+                "extent": {
+                    "x": 287.61328125,
+                    "y": 117.23046875
+                },
+                "fill": "Color.transparent",
+                "border": {
+                    "style": {
+                        "top": "dashed",
+                        "right": "dashed",
+                        "bottom": "dashed",
+                        "left": "dashed"
+                    },
+                    "width": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "color": {
+                        "top": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "left": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "right": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        },
+                        "bottom": {
+                            "r": 0.4980392156862745,
+                            "g": 0.5490196078431373,
+                            "b": 0.5529411764705883,
+                            "a": 1
+                        }
+                    },
+                    "borderRadius": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    }
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    },
+    "morphs": [],
+    "numMorphs": 5
+}

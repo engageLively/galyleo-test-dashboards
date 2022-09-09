@@ -129,6 +129,40 @@
             }
         },
     "views":{},
-    "filters":{},
+    "filters": {
+        "YearFilter": {
+            "savedForm": {
+                "part":"part://Dashboard Studio Development/galyleo/SliderFilter",
+                "tableName":null,
+                "filterType":"NumericSelect",
+                "columnName":"Year",
+                "minVal":1828,
+                "maxVal":2020,
+                "value":1960,
+                "increment":4
+            },
+            "morphIndex":12,
+            "morphicProperties": {
+                "rotation":0,
+                "scale":1,
+                "clipMode":"visible",
+                "position":{"x":463.73828125,"y":550.5859375},
+                "extent":{"x":287.61328125,"y":117.23046875},
+                "fill":{"r":0,"g":0,"b":0,"a":0},
+                "border":{
+                    "style":{"top":"dashed","right":"dashed","bottom":"dashed","left":"dashed"},
+                    "width":{"top":0,"right":0,"bottom":0,"left":0},
+                    "color":{
+                        "top":{"r":0.4980392156862745,"g":0.5490196078431373,"b":0.5529411764705883,"a":1},
+                        "left":{"r":0.4980392156862745,"g":0.5490196078431373,"b":0.5529411764705883,"a":1},
+                        "right":{"r":0.4980392156862745,"g":0.5490196078431373,"b":0.5529411764705883,"a":1},
+                        "bottom":{"r":0.4980392156862745,"g":0.5490196078431373,"b":0.5529411764705883,"a":1}
+                    },
+                    "borderRadius":{"top":10,"right":10,"bottom":10,"left":10}
+                }
+            }
+        }
+        
+    },
     "charts":{}
 }
