@@ -278,8 +278,8 @@
                 "tableName": null,
                 "filterType": "Range",
                 "columnName": "Age",
-                "min": null,
-                "max": null
+                "min": 20,
+                "max": 75
             },
             "morphIndex": 2,
             "morphicProperties": {
@@ -351,11 +351,10 @@
         "AgeRange": {
             "savedForm": {
                 "part": "part://Dashboard Studio Development/galyleo/range filter",
-                "tableName": null,
                 "filterType": "Range",
                 "columnName": "Age",
-                "min": null,
-                "max": null
+                "min": 20,
+                "max": 75
             },
             "morphIndex": 3,
             "morphicProperties": {
@@ -424,22 +423,14 @@
                 }
             }
         },
-        "": {
+        "AgeSlider": {
             "savedForm": {
                 "part": "part://Dashboard Studio Development/galyleo/SliderFilter",
-                "tableName": [
-                    20,
-                    47,
-                    53,
-                    54,
-                    60,
-                    75
-                ],
                 "filterType": "NumericSelect",
                 "columnName": "Age",
-                "minVal": null,
-                "maxVal": false,
-                "value": null
+                "minVal": 20,
+                "maxVal": 75,
+                "value": 53
             },
             "morphIndex": 4,
             "morphicProperties": {
